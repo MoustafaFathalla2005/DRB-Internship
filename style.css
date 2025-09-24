@@ -201,4 +201,30 @@ footer {
   padding: 1rem;
   background: #f1f1f1;
   color: #666;
+
+}
+
+@media (max-width: 768px) {
+  .table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: 13px;
+  }
+
+  .table th,
+  .table td {
+    white-space: nowrap;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .table thead {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .table-hover tbody tr:hover {
+    background-color: #444;
+  }
 }
